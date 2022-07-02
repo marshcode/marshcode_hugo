@@ -16,3 +16,8 @@ Theme = 'mainroad'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[Author]
+  name = "David Marsh"
+  bio = "I am a computer programmer in Massachusetts. My professional work is mostly back-end stuff. That's why all of my side projects have a visual component to them."
+  avatar = "hugo_static/img/avatar.png"
