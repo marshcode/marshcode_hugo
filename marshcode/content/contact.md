@@ -7,3 +7,5 @@ menu: main
 weight: 100
 widgets: ["social"]
 ---
+
+I can be reached by the links provided on the right.
