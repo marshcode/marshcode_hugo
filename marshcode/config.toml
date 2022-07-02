@@ -6,3 +6,8 @@ Theme = 'mainroad'
 [Params]
     customCSS = ["/hugo_static/css/custom.css"]
     mainSections = ['post']
+
+[Params.widgets.social]
+  linkedin = "daviddmarsh"
+  github = "marshcode"
+  email = "davidmarsh@marshcode.com"
