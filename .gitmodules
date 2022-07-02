@@ -1,0 +1,6 @@
+[submodule "marshcode/themes\\mainroad"]
+	path = marshcode/themes\\mainroad
+	url = https://github.com/Vimux/Mainroad.git
+[submodule "marshcode/themes\\portio"]
+	path = marshcode/themes\\portio
+	url = https://github.com/StaticMania/portio-hugo.git
