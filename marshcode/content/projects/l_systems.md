@@ -25,7 +25,18 @@ Here are some interesting visualizations you can use by referring to the "Houdin
 ![Flower Image](/hugo_static/img/projects/l_system/flower.gif)
 
 [Flower](https://www.marshcode.com/lsys/?share=eyJydWxlcyI6eyJBIjoiQS1bRl0ifSwiYXhpb20iOiI0RkYzQTw8PCIsImFuZ2xlIjozMCwiZGVwdGgiOjEyLCJzdGVwIjo1LCJmb3J3YXJkWFkiOiJGIiwidHVyblhZY3ciOiItIiwidHVyblhZY2N3IjoiKyIsInR1cm5YWmN3IjoiPCIsInR1cm5YWmNjdyI6Ij4iLCJwdXNoIjoiWyIsInBvcCI6Il0iLCJkaXNwbGF5IjoiU2hhcmUifQ==)
+{{% /center_border %}}
 
+{{% center_border %}}
+![Edge Replacement](/hugo_static/img/projects/l_system/edge_replacement.png)
+
+[Edge Replacement](https://www.marshcode.com/lsys/?share=eyJydWxlcyI6eyJGIjoiOEZGKytGKytGK0YrK0YtRiJ9LCJheGlvbSI6IkYiLCJhbmdsZSI6NjAsImRlcHRoIjozLCJzdGVwIjo1LCJmb3J3YXJkWFkiOiJGIiwidHVyblhZY3ciOiItIiwidHVyblhZY2N3IjoiKyIsInR1cm5YWmN3IjoiPCIsInR1cm5YWmNjdyI6Ij4iLCJwdXNoIjoiWyIsInBvcCI6Il0iLCJkaXNwbGF5IjoiU2hhcmUifQ==)
+{{% /center_border %}}
+
+{{% center_border %}}
+![Branching](/hugo_static/img/projects/l_system/branching.png)
+
+[Branching](https://www.marshcode.com/lsys/?share=eyJydWxlcyI6eyJYIjoiRi1bW1hdK1hdK0ZbK0ZYXS1YIiwiRiI6IkZGIn0sImF4aW9tIjoiWCIsImFuZ2xlIjoyMi41LCJkZXB0aCI6NSwic3RlcCI6NSwiZm9yd2FyZFhZIjoiRiIsInR1cm5YWWN3IjoiLSIsInR1cm5YWWNjdyI6IisiLCJ0dXJuWFpjdyI6IjwiLCJ0dXJuWFpjY3ciOiI+IiwicHVzaCI6IlsiLCJwb3AiOiJdIiwiZGlzcGxheSI6IlNoYXJlIn0=)
 {{% /center_border %}}
 
 ## Version 1
