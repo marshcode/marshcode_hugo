@@ -1,1 +1,14 @@
-<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
+{{ $has_protocol := strings.HasPrefix .Destination "http" }}
+<a href="{{ .Destination | safeURL }}"{{ with .Title}}
+   title="{{ . }}"{{ end }}
+   {{ if $has_protocol }}
+    target="_blank"
+    rel="noopener"
+   {{ end }}
+>
+    {{ .Text | safeHTML }}
+    {{ if $has_protocol }}
+    [🡕]
+    {{ end }}
+
+</a>
