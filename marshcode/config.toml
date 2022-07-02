@@ -5,3 +5,4 @@ Theme = 'mainroad'
 
 [Params]
     customCSS = ["/hugo_static/css/breadcrumbs.css"]
+    mainSections = ['post']
