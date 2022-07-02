@@ -17,3 +17,11 @@
     content: ">";
     padding: 0.3rem;
 }
+
+.post__title a {
+    color: #e22d30;
+}
+
+.post__title a:hover {
+    text-decoration: underline;
+}

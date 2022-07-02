@@ -4,5 +4,5 @@ title = 'Marshcode'
 Theme = 'mainroad'
 
 [Params]
-    customCSS = ["/hugo_static/css/breadcrumbs.css"]
+    customCSS = ["/hugo_static/css/custom.css"]
     mainSections = ['post']
