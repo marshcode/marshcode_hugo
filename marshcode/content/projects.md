@@ -13,14 +13,14 @@ They all suffer from ui-designed-by-engineer(&trade;). You'll see what I mean.
 
 ## Bezier Curves
 
-A web interface for manipulating [Bezier Curves](https://en.wikipedia.org/wiki/B%C3%A9zier_curve). 
+A web interface for manipulating [Bezier Curves [🡕]](https://en.wikipedia.org/wiki/B%C3%A9zier_curve). 
 
-[Project Link](/bez)
+[Project Link [🡕]](https://www.marshcode.com/bez)
 
 ## LSystems
-A web interface for manipulatig [LSystems](https://en.wikipedia.org/wiki/L-system). 
+A web interface for manipulating [LSystems [🡕]](https://en.wikipedia.org/wiki/L-system). 
 
-[Project Link](/lsys)
+[Project Link [🡕]](https://www.marshcode.com/lsys)
 
 ## More LSystems
 A older Lsystem interface. It's not my favorite but it has a few interesting features:
@@ -30,4 +30,4 @@ A older Lsystem interface. It's not my favorite but it has a few interesting fea
 
 Ultimately both of these things are unnecessary - the newer version is simpler while still providing most of the same functionality.
 
-[Project Link](/lsys_old)
+[Project Link [🡕]](https://www.marshcode.com/lsys_old)
