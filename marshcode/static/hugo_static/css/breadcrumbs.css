@@ -1,0 +1,19 @@
+.breadcrumb {
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin: 0 !important;
+}
+
+
+.breadcrumb li {
+    display: inline;
+    white-space: nowrap;
+}
+
+.breadcrumb li + li:before {
+    content: ">";
+    padding: 0.3rem;
+}

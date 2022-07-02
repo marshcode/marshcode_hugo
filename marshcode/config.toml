@@ -2,4 +2,6 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Marshcode'
 Theme = 'mainroad'
-menu = ['home', 'contact']
+
+[Params]
+    customCSS = ["/hugo_static/css/breadcrumbs.css"]
