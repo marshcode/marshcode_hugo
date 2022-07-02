@@ -11,3 +11,8 @@ Theme = 'mainroad'
   linkedin = "daviddmarsh"
   github = "marshcode"
   email = "davidmarsh@marshcode.com"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

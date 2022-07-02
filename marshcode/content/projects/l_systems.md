@@ -21,9 +21,12 @@ The basic controls are too "Load" a curve with the button at the top left then r
 
 Here are some interesting visualizations you can use by referring to the "Houdini's Kitchen" above
 
-| Image                                                          | Share Link |
-|----------------------------------------------------------------|------------|
-| ![Flower Image](/hugo_static/img/projects/l_system/flower.gif) | [Flower](https://www.marshcode.com/lsys/?share=eyJydWxlcyI6eyJBIjoiQS1bRl0ifSwiYXhpb20iOiI0RkYzQTw8PCIsImFuZ2xlIjozMCwiZGVwdGgiOjEyLCJzdGVwIjo1LCJmb3J3YXJkWFkiOiJGIiwidHVyblhZY3ciOiItIiwidHVyblhZY2N3IjoiKyIsInR1cm5YWmN3IjoiPCIsInR1cm5YWmNjdyI6Ij4iLCJwdXNoIjoiWyIsInBvcCI6Il0iLCJkaXNwbGF5IjoiU2hhcmUifQ==) |
+{{% center_border %}}
+![Flower Image](/hugo_static/img/projects/l_system/flower.gif)
+
+[Flower](https://www.marshcode.com/lsys/?share=eyJydWxlcyI6eyJBIjoiQS1bRl0ifSwiYXhpb20iOiI0RkYzQTw8PCIsImFuZ2xlIjozMCwiZGVwdGgiOjEyLCJzdGVwIjo1LCJmb3J3YXJkWFkiOiJGIiwidHVyblhZY3ciOiItIiwidHVyblhZY2N3IjoiKyIsInR1cm5YWmN3IjoiPCIsInR1cm5YWmNjdyI6Ij4iLCJwdXNoIjoiWyIsInBvcCI6Il0iLCJkaXNwbGF5IjoiU2hhcmUifQ==)
+
+{{% /center_border %}}
 
 ## Version 1
 
