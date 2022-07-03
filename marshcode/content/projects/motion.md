@@ -11,6 +11,7 @@ I feel like a good start is to just show the final product. Everything else come
 
 {{% center_border %}}
 ![Motion Capture](/hugo_static/img/projects/motion/motion_capture.gif)
+
 The gif is a bit choppy but I think you get the idea.
 {{% /center_border %}}
 
