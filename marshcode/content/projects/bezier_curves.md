@@ -1,6 +1,5 @@
 ---
 title: Bezier Curves
-date: 2022-01-25T14:00:00.000Z
 authorbox: false
 sidebar: false
 summary: "A Bézier curve is a parametric curve used in computer graphics and related fields"
