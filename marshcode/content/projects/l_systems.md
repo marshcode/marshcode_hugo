@@ -6,6 +6,10 @@ tags:
 - "project"
 ---
 
+{{% project_icons 
+    github="https://github.com/marshcode/lsystem" 
+    wikipedia="https://en.wikipedia.org/wiki/L-system"
+%}}
 ## Introduction
 
 Better people than I have worked to define and explain L-Systems, so please browse some of the following links for an indepth explanation:
