@@ -1,24 +1,32 @@
 {{ $project_link := default "" (.Get "project_link") }}
 {{ if $project_link }}
 <a class="project_link" href="{{ $project_link }}" target="_blank" rel="noopener">
-    <img src="/favicon.ico" alt="Project" title="Link to the running web app"> [↗]
-    Project Link
+    <img src="/favicon.ico" alt="Project" title="Link to the running web app">
+    Project Link [↗]
 </a>
 {{ end }}
 
 {{ $github_link := default "" (.Get "github_link") }}
 {{ if $github_link }}
 <a class="project_link" href="{{ $github_link }}" target="_blank" rel="noopener">
-    <img src="https://github.githubassets.com/favicons/favicon.png" alt="GitHub" title="Link to sourcecode on GitHub"> [↗]
-    Github Repo
+    <img src="https://github.githubassets.com/favicons/favicon.png" alt="GitHub" title="Link to sourcecode on GitHub">
+    Github Repo [↗]
 </a>
 {{ end }}
 
 {{ $wikipedia_link := default "" (.Get "wikipedia_link") }}
 {{ if $wikipedia_link }}
 <a class="project_link" href="{{ $wikipedia_link }}" target="_blank" rel="noopener">
-    <img src="https://www.wikipedia.org/static/favicon/wikipedia.ico " alt="WikiPedia" title="Link to subject on Wikipedia"> [↗]
-    {{ default "Subject" (.Get "wikipedia_title") }} on Wikipedia
+    <img src="https://www.wikipedia.org/static/favicon/wikipedia.ico " alt="WikiPedia" title="Link to subject on Wikipedia">
+    {{ default "Subject" (.Get "wikipedia_title") }} on Wikipedia [↗]
+</a>
+{{ end }}
+
+{{ $documentation_link := default "" (.Get "documentation_link") }}
+{{ if $documentation_link }}
+<a class="project_link" href="{{ $documentation_link }}" target="_blank" rel="noopener">
+    <img src="/hugo_static/img/documentation.png" alt="Documentation" title="Project Documentation">
+    Project Documentation [↗]
 </a>
 {{ end }}
 
@@ -26,8 +34,8 @@
 {{ if $explanation_link }}
 {{ $explanation_title:= default "" (.Get "explanation_title") }}
 <a class="project_link" href="{{ $explanation_link }}" target="_blank" rel="noopener">
-    <img src="/hugo_static/img/explanation-icon-23.jpg" alt="Explanation" title="{{ $explanation_title }}"> [↗]
-    Explanation: {{ $explanation_title }}
+    <img src="/hugo_static/img/explanation-icon-23.jpg" alt="Explanation" title="{{ $explanation_title }}">
+    Explanation: {{ $explanation_title }} [↗]
 </a>
 {{ end }}
 

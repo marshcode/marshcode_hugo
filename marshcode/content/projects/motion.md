@@ -7,6 +7,10 @@ tags:
 ---
 
 ## Introduction
+{{% project_links
+github_link="https://github.com/marshcode/motion"
+%}}
+
 I feel like a good start is to just show the final product. Everything else comes from that:
 
 {{% center_border %}}

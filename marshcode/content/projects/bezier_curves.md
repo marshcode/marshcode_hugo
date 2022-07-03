@@ -6,9 +6,13 @@ tags:
 - "project"
 ---
 
-A web interface for manipulating [Bezier Curves](https://en.wikipedia.org/wiki/B%C3%A9zier_curve). This is based off a python project I did for my Master's Degree.
+## Introduction
+{{% project_links
+github_link="https://en.wikipedia.org/wiki/B%C3%A9zier_curve"
+project_link="https://www.marshcode.com/lsys"
+%}}
 
-[Project Link](https://www.marshcode.com/bez)
+A web interface for manipulating Bezier Curves. This is based off a python project I did for my Master's Degree.
 
 ## Examples
 
