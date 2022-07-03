@@ -67,9 +67,15 @@ Now that we can detect motion on a single frame, what do we do? Keeping a single
 
 My solution was to keep a rolling average of the number of contours. I save frames when that rolling average goes above zero and stop when it falls below a certain threshold. Take the following video:
 
+![Motion Capture](/hugo_static/img/projects/motion/last_one_i_swear.gif)
+
 Now look at a graph of these two items over time
 
-{{% center_border %}}
-![Motion Capture](/hugo_static/img/projects/motion/contour_count.png)
-![Motion Capture](/hugo_static/img/projects/motion/total_contour_area.png)
-{{% /center_border %}}
+| ![Motion Capture](/hugo_static/img/projects/motion/contour_count.png) | ![Motion Capture](/hugo_static/img/projects/motion/total_contour_area.png)  |
+|-----|---|
+
+The rolling average (in red) keeps going even when the input value (in blue) hits zero. It also allows two segments of motion to count as one if there is only a small break.  It does leave a section at the end where there is no motion but this isn't a huge deal.
+
+There is one final point worth mentioning. So far, the gifs I've included here are screen captures of the debug interface. The actual motion detector will create a gif and write it to my Google drive. This gif is constrained to 250 frames. If I have more frames than that, I will skip evenly throughout the frames in order to capture a complete picture of what happened. This helps keep the file size down (though they're still 20MB, so I won't include it here.)
+
+The whole thing can be found here: https://github.com/marshcode/motion/blob/master/project/detector.py#L150
