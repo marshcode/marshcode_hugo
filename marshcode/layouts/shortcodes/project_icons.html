@@ -1,0 +1,16 @@
+{{ $github := default "" (.Get "github") }}
+{{ if $github }}
+<a class="project_link" href="{{ $github }}" target="_blank" rel="noopener">
+    <img src="https://github.githubassets.com/favicons/favicon.png" alt="GitHub" title="Link to sourcecode on GitHub"> [↗]
+</a>
+
+{{ end }}
+
+{{ $wikipedia := default "" (.Get "wikipedia") }}
+{{ if $wikipedia }}
+<a class="project_link" href="{{ $wikipedia }}" target="_blank" rel="noopener">
+    <img src="https://www.wikipedia.org/static/favicon/wikipedia.ico " alt="GitHub" title="Link to subject on GitHub"> [↗]
+</a>
+{{ end }}
+
+

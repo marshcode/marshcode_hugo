@@ -38,3 +38,8 @@
 .center_border p {
     margin:0
 }
+
+.project_link img{
+    max-width:25px;
+    height:100%;
+}
