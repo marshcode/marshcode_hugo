@@ -3,7 +3,6 @@ title: L-Systems
 authorbox: false
 sidebar: false
 summary: "An L-system or Lindenmayer system is a parallel rewriting system and a type of formal grammar."
-toc: true
 ---
 
 ## Introduction
