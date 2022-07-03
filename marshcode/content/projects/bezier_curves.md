@@ -6,6 +6,6 @@ tags:
 - "project"
 ---
 
-A web interface for manipulating [Bezier Curves](https://en.wikipedia.org/wiki/B%C3%A9zier_curve).
+A web interface for manipulating [Bezier Curves](https://en.wikipedia.org/wiki/B%C3%A9zier_curve). This is based off a python project I did for my Master's Degree.
 
 [Project Link](https://www.marshcode.com/bez)
