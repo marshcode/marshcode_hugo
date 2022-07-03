@@ -1,0 +1,7 @@
+{{ $taggedPages := index .Site.Taxonomies.tags.project.Pages }}
+All Projects
+<ul>
+    {{ range $taggedPages }}
+    <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+</ul>

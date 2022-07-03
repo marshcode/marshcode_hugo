@@ -1,8 +1,9 @@
 ---
 title: Motion Detector
 authorbox: false
-sidebar: false
 summary: "A motion detector that, well, detects motion via a web cam and uploads it to google drive"
+tags:
+    - "project"
 ---
 
 ## Introduction

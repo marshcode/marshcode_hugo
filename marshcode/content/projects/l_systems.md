@@ -1,13 +1,14 @@
 ---
 title: L-Systems
 authorbox: false
-sidebar: false
 summary: "An L-system or Lindenmayer system is a parallel rewriting system and a type of formal grammar."
+tags:
+- "project"
 ---
 
 ## Introduction
 
-Better people than I have worked to defined and explain L-Systems, so please browse some of the following links for an indepth explanation:
+Better people than I have worked to define and explain L-Systems, so please browse some of the following links for an indepth explanation:
 * [How to create L-Systems – Houdini Kitchen](https://www.houdinikitchen.net/2019/12/21/how-to-create-l-systems/)
 * [L-Systems - Wikipedia](https://en.wikipedia.org/wiki/L-system)
 

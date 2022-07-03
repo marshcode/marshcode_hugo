@@ -7,6 +7,20 @@ Theme = 'mainroad'
     customCSS = ["/hugo_static/css/custom.css"]
     mainSections = ['post']
 
+[Params.logo]
+  image = "hugo_static/img/avatar.png" # Logo image. Path relative to "static"
+  title = "Marshcode" # Logo title, otherwise will use site title
+  subtitle = "Personal Project Showcase" # Logo subtitle
+
+[Params.sidebar]
+  home = false # Configure layout for home page
+  list = false  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["project_nav"]
+  # alternatively "ddg-search" can be used, to search via DuckDuckGo
+  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+
 [Params.widgets.social]
   linkedin = "daviddmarsh"
   github = "marshcode"
