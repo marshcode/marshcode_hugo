@@ -26,7 +26,7 @@
 {{ if $documentation_link }}
 <a class="project_link" href="{{ $documentation_link }}" target="_blank" rel="noopener">
     <img src="/hugo_static/img/documentation.png" alt="Documentation" title="Project Documentation">
-    Project Documentation [↗]
+    {{ default "Project" (.Get "documentation_title") }} Documentation [↗]
 </a>
 {{ end }}
 

@@ -9,6 +9,10 @@ tags:
 ## Introduction
 {{% project_links
 github_link="https://github.com/marshcode/motion"
+documentation_link="https://docs.opencv.org/4.5.4/"
+documentation_title="OpenCV Python"
+explanation_link="https://pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/"
+explanation_title="Basic motion detection - PyImageSearch"
 %}}
 
 I feel like a good start is to just show the final product. Everything else comes from that:
@@ -67,7 +71,7 @@ This is good for display purposes but if you want to do something programaticall
 
 ## Taking it Further
 
-Now that we can detect motion on a single frame, what do we do? Keeping a single frame of motion doesn't really tell us what is going on. It would be better to save an entire segment of motion as one video/gif. Great, how do we know when to stop recording?
+Now that we can detect motion on a single frame, what do we do? Keeping a single frame of motion doesn't really tell us what is going on. It would be better to save an entire segment of motion as one video/gif. Great, how do we do that?
 
 My solution was to keep a rolling average of the number of contours. I save frames when that rolling average goes above zero and stop when it falls below a certain threshold. Take the following video:
 

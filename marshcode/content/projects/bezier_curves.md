@@ -8,8 +8,10 @@ tags:
 
 ## Introduction
 {{% project_links
-github_link="https://en.wikipedia.org/wiki/B%C3%A9zier_curve"
-project_link="https://www.marshcode.com/lsys"
+github_link="https://github.com/marshcode/bezier_visualizer"
+project_link="https://www.marshcode.com/bez/"
+wikipedia_link="https://en.wikipedia.org/wiki/B%C3%A9zier_curve"
+wikipedia_title="Bézier curve"
 %}}
 
 A web interface for manipulating Bezier Curves. This is based off a python project I did for my Master's Degree.
