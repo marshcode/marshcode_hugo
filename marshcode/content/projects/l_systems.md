@@ -10,11 +10,11 @@ tags:
 {{% project_icons
 github="https://github.com/marshcode/lsystem"
 wikipedia="https://en.wikipedia.org/wiki/L-system"
+explanation="How to create L-Systems – Houdini Kitchen|https://www.houdinikitchen.net/2019/12/21/how-to-create-l-systems/"
 %}}
 
 
 Better people than I have worked to define and explain L-Systems, please browse the project links above for more in-depth explanations.
-* [How to create L-Systems – Houdini Kitchen](https://www.houdinikitchen.net/2019/12/21/how-to-create-l-systems/)
 
 ## Version 2
 A newer version that includes forward animation and adjustable animation controls. 

@@ -13,4 +13,10 @@
 </a>
 {{ end }}
 
-
+{{ $explanation := default "" (.Get "explanation") }}
+{{ if $explanation }}
+{{ $explanation_split := split $explanation "|"}}
+<a class="project_link" href="{{ index $explanation_split 1 }}" target="_blank" rel="noopener">
+    <img src="/hugo_static/img/explanation-icon-23.jpg" alt="Explanation" title="{{ index $explanation_split 0 }}"> [↗]
+</a>
+{{ end }}
