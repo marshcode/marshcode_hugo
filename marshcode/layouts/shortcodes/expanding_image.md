@@ -4,4 +4,4 @@
 
 
 
-{{ printf "[![GitHub](%s 'Link to sourecode on GitHub')](%s)" $small $small}}
+{{ printf "[![%s](%s '%s')](%s)" $alt $small $alt $small }}
