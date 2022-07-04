@@ -18,7 +18,7 @@ explanation_title="Basic motion detection - PyImageSearch"
 I feel like a good start is to just show the final product. Everything else comes from that:
 
 {{% center_border %}}
-![Motion Capture](/hugo_static/img/projects/motion/motion_capture.gif)
+{{% expanding_image alt_text="Motion Capture" image_url="/hugo_static/img/projects/motion/motion_capture.gif" %}}
 
 The gif is a bit choppy but I think you get the idea.
 {{% /center_border %}}
@@ -28,7 +28,7 @@ The gif is a bit choppy but I think you get the idea.
 The first step is to get a sequence of frames. OpenCV makes it easy enough to pull from a webcam, but you can also use existing footage if you don't have one.
 
 {{% center_border %}}
-![Motion Capture](/hugo_static/img/projects/motion/star_wars.gif)
+{{% expanding_image alt_text="Pew Pew" image_url="/hugo_static/img/projects/motion/star_wars.gif" %}}
 
 {{% /center_border %}}
 
@@ -76,9 +76,7 @@ Now that we can detect motion on a single frame, what do we do? Keeping a single
 My solution was to keep a rolling average of the number of contours. I save frames when that rolling average goes above zero and stop when it falls below a certain threshold. Take the following video:
 
 {{% center_border %}}
-{{% expanding_image 
-        alt_text="Hand"    
-        image_url="/hugo_static/img/projects/motion/last_one_i_swear.gif" %}}
+{{% expanding_image alt_text="Hand" image_url="/hugo_static/img/projects/motion/last_one_i_swear.gif" %}}
 {{% /center_border %}}
 
 Now look at a graph of these two items over time
