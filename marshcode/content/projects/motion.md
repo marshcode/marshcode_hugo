@@ -76,9 +76,7 @@ Now that we can detect motion on a single frame, what do we do? Keeping a single
 My solution was to keep a rolling average of the number of contours. I save frames when that rolling average goes above zero and stop when it falls below a certain threshold. Take the following video:
 
 {{% center_border %}}
-
-![Motion Capture](/hugo_static/img/projects/motion/last_one_i_swear.gif)
-
+{{% expanding_image alt="Hand" image_url="/hugo_static/img/projects/motion/last_one_i_swear.gif" %}}
 {{% /center_border %}}
 
 Now look at a graph of these two items over time
