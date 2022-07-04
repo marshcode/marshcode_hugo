@@ -81,8 +81,10 @@ My solution was to keep a rolling average of the number of contours. I save fram
 
 Now look at a graph of these two items over time
 
-| ![Motion Capture](/hugo_static/img/projects/motion/contour_count.png) | ![Motion Capture](/hugo_static/img/projects/motion/total_contour_area.png)  |
-|-----|---|
+{{% center_border %}}
+{{% expanding_image width="300px" image_url="/hugo_static/img/projects/motion/contour_count.png" %}}
+{{% expanding_image width="300px" image_url="/hugo_static/img/projects/motion/total_contour_area.png" %}}
+{{% /center_border %}}
 
 The rolling average (in red) keeps going even when the input value (in blue) hits zero. It also allows two segments of motion to count as one if there is only a small break.  It does leave a section at the end where there is no motion but this isn't a huge deal.
 

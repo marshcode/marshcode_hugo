@@ -1,7 +1,8 @@
 {{ $small := default "" (.Get "image_url") }}
 {{ $large := default $small (.Get "image_url_large") }}
 {{ $alt := default "Image" (.Get "alt_text") }}
+{{ $width := default "auto" (.Get "width") }}
 
 <a href="{{ $large }}">
-    <img alt="{{ $alt }}" title="{{ $alt }}" src="{{ $small }}" />
+    <img style="width:{{ $width }}" alt="{{ $alt }}" title="{{ $alt }}" src="{{ $small }}" />
 </a>
